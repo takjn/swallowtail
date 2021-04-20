@@ -1,6 +1,5 @@
 # Swallowtail
-
-Swallowtail is a split keyboard with 5x6 column staggered keys.
+A split keyboard with 5x6 column staggered keys.
 
 ## Parts List
 ### Required
@@ -98,3 +97,9 @@ Plug key switches on the top plate. Make sure all pins are straight. Attatch the
 Swallowtail uses QMK firmware. If you want to customize the firmware, see the document and set up QMK.
 
 You can use a compiled firmware. See Firmware section. The firmware supports VIA. You can customize key bindings easily without compile.
+
+## License
+Licensed under the MIT License.
+
+## Dependencies
+The PCB uses [foostan/kbd](https://github.com/foostan/kbd) library.
