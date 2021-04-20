@@ -6,11 +6,11 @@ A split keyboard with 5x6 column staggered keys.
 
 |Name |Number |Notes |
 |--- |--- |--- |
-|PCB | 2 | The PCB is reversible. One is for left and the other is for right. You can use a gerber file in `pcb/plot` directory. |
+|PCB | 2 | The PCB is reversible. One is for left and the other is for right. You can use a gerber file in `pcb/plot` directory to order your one. |
 |Top plate, bottom plate, OLED protection plate | 2 sets | You can see the svg file in `plate` directory. This is designed for 3mm acrylic plate. If you create your plate with another thickness or material, you may need to change spacers height and screws length. |
 |Diode 1N4148 | 60 | |
 |Kailh PCB Socket | 60 | |
-|2 pin Tactile switch | 2 |Reset switch |
+|2 pin Tactile switch | 2 | For reset switch |
 |3.5mm TRRS jack | 2 | |
 |3mm female-to-female spacer | 12 | |
 |3mm female-to-male spacer | 16 | |
@@ -24,12 +24,14 @@ A split keyboard with 5x6 column staggered keys.
 |Micro USB Cable | 1 | |
 
 ### Options
-#### Spring loaded pin headers (Conthrough)
+#### Spring loaded pin headers
+Highly recommend for beginners. Some shop sell with Pro micro.
 |Name |Number |Notes |
 |--- |--- |--- |
-|Spring loaded 12-pin header | 4 | |
+|Spring loaded 12-pin header (a.k.a. Conthrough) | 4 | |
 
 #### OLED
+Just a decorative parts.
 |Name |Number |Notes |
 |--- |--- |--- |
 |SSD1306 OLED module | 2 | |
@@ -37,7 +39,7 @@ A split keyboard with 5x6 column staggered keys.
 |4 pin low profile header (low profile)| 2 | |
 
 #### Back light
-A led places in bottom (south) side of keycap.
+A led places in bottom (south) side of keycap. Transparent key switch is recommended.
 |Name |Number |Notes |
 |--- |--- |--- |
 |SK6812MINI-E | 60 | |
@@ -61,7 +63,7 @@ The PCB is reversible. Use one board for the left and the other for the right.
 Bridge five jumpers on each board. One should be "Left" and the other should be "Right".
 
 #### Diode
-Place diodes on the **back** side of the pcb. This is the same side on where you jumpered. Make sure the diode orientation is correct. All diode orientation must be the same on the pcb.
+Place diodes on the **back** side of the pcb. This is the same side on which you jumpered. Make sure the diode orientation is correct. All diode orientation must be the same on the pcb.
 
 #### Reset switch and TRRS jack
 Solder a reset switch and TRRS jack on the **front** side of the pcb.
@@ -69,11 +71,10 @@ Solder a reset switch and TRRS jack on the **front** side of the pcb.
 #### Pro micro
 Insert pin headers from the surface on which parts are mounted. Solder it from the blank side of the board.
 
-Insert a Pro micro into the place. If you are using spring loaded pin headers, you don't need to solder it. If you don't, solder it.
+Insert a Pro micro into the place. If you are using spring loaded pin headers, you don't need to solder it. If you don't, solder it and cut pins a little not to conflict with the cover plate.
 
 #### Test
-Before moving to the next step, test the pcb once.
-Flash a firmware to the Pro micro. Then, make short-circuit on each keyswitch pads. You will see some characters in your computer.
+Before moving to the next step, test the pcb once. Flash a firmware to the Pro micro. Then, make short-circuit on each keyswitch pads. You will see some characters in your computer.
 
 #### Kailh PCB Socket
 Place a PCB socket on the back side of pcb. Make sure the position is correct.
@@ -96,7 +97,7 @@ Plug key switches on the top plate. Make sure all pins are straight. Attatch the
 ## Firmware
 Swallowtail uses QMK firmware. If you want to customize the firmware, see the document and set up QMK.
 
-You can use a compiled firmware. See Firmware section. The firmware supports VIA. You can customize key bindings easily without compile.
+You can use a compiled firmware. The firmware supports VIA. You can customize key bindings easily without compile.
 
 ## License
 Licensed under the MIT License.
