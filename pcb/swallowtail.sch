@@ -19,7 +19,7 @@ U 1 1 6049D720
 P 2100 1650
 F 0 "U1" H 2150 2637 60  0000 C CNN
 F 1 "ProMicro_r" H 2150 2531 60  0000 C CNN
-F 2 "kbd:ProMicro_v2" H 2250 600 60  0001 C CNN
+F 2 "swallowtail:ProMicro_v2_mod" H 2250 600 60  0001 C CNN
 F 3 "" H 2250 600 60  0000 C CNN
 	1    2100 1650
 	1    0    0    -1  
