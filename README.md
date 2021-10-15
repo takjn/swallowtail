@@ -95,9 +95,11 @@ Screw OLED spacers. Each 8mm female-to-female spacer should be on the front side
 Plug key switches on the top plate. Make sure all pins are straight. Attatch the plate with keys to the PCB and fix with M2 screws. Then, put on the bottom plate and OLED protection plate too.
 
 ## Firmware
-Swallowtail uses QMK firmware. If you want to customize the firmware, see the document and set up QMK.
+You can use a compiled firmware in the firmware directory. Go to [Pro Micro Web Updater](https://sekigon-gonnoc.github.io/promicro-web-updater/index.html) and flash the hex file in the firmware directory.
 
-You can use a compiled firmware. The firmware supports VIA. You can customize key bindings easily without compile.
+The firmware supports VIA. You can customize key bindings easily without compile. Go to [Remap](https://remap-keys.app/) and use info.json in the firmware directory as a definition file.
+
+Swallowtail uses QMK firmware. If you want to customize the firmware, see [swallowtail branch in takjn/qmk_firmware](https://github.com/takjn/qmk_firmware/tree/swallowtail/keyboards/swallowtail).
 
 ## License
 Licensed under the MIT License.
