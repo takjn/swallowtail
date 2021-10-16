@@ -124,14 +124,14 @@ Put the bottom plate and OLED protection plate too.
 ![PXL_20210722_110312921](https://user-images.githubusercontent.com/7824306/128621826-e7f3364e-a99b-4f9d-bfee-6e5a1ca8f767.jpg)
 ![PXL_20210722_111859473](https://user-images.githubusercontent.com/7824306/128621828-63bf9303-e31e-4268-bb51-a6dddf6926a0.jpg)
 
-Plug key switches on the top plate. Make sure all pins are straight before insert. 
+Plug key switches on the top plate. Make sure all pins are straight before insert.
 
 ![PXL_20210722_113817315](https://user-images.githubusercontent.com/7824306/128621845-0ac307b4-8aca-4eb9-8e40-9a580c033fde.jpg)
 
 ## Firmware
 You can use a compiled firmware in the firmware directory. Go to [Pro Micro Web Updater](https://sekigon-gonnoc.github.io/promicro-web-updater/index.html) and flash the hex file in the firmware directory.
 
-The firmware supports VIA. You can customize key bindings easily without compile. Go to [Remap](https://remap-keys.app/) and use info.json in the firmware directory as a definition file.
+The firmware supports VIA. You can customize key bindings easily without compile. Go to [Remap](https://remap-keys.app/) and use swallowtail.json in the firmware directory as a definition file.
 
 Swallowtail uses QMK firmware. If you want to customize the firmware, see [swallowtail branch in takjn/qmk_firmware](https://github.com/takjn/qmk_firmware/tree/swallowtail/keyboards/swallowtail).
 
