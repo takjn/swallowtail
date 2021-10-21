@@ -13,7 +13,7 @@ A split keyboard with 5x6 column staggered keys.
 |3mm female-to-female spacer | 12 |https://www.aliexpress.com/item/33033691154.html |
 |3mm female-to-male spacer | 16 |https://www.aliexpress.com/item/33033691154.html |
 |8mm female-to-female spacer | 4 |https://www.aliexpress.com/item/33033691154.html |
-|M2 3mm screw | 32 | |
+|M2 3mm screw | 32 | 3.5mm will be better if you can get. |
 |Diode 1N4148 | 60 | |
 |Kailh PCB Socket | 60 | |
 |2 pin Tactile switch | 2 | For reset switch |
@@ -129,9 +129,9 @@ Plug key switches on the top plate. Make sure all pins are straight before inser
 ![PXL_20210722_113817315](https://user-images.githubusercontent.com/7824306/128621845-0ac307b4-8aca-4eb9-8e40-9a580c033fde.jpg)
 
 ## Firmware
-You can use a compiled firmware in the firmware directory. Go to [Pro Micro Web Updater](https://sekigon-gonnoc.github.io/promicro-web-updater/index.html) and flash the hex file in the firmware directory.
+You can use a prebuilt firmware in the firmware directory. Go to [Pro Micro Web Updater](https://sekigon-gonnoc.github.io/promicro-web-updater/index.html) and flash the hex file in the firmware directory.
 
-The firmware supports VIA. You can customize key bindings easily without compile. Go to [Remap](https://remap-keys.app/) and use swallowtail.json in the firmware directory as a definition file.
+The firmware supports [Remap](https://remap-keys.app/). You can customize key bindings easily without compile. Go to [Remap](https://remap-keys.app/) and connect your keyboad.
 
 Swallowtail uses QMK firmware. If you want to customize the firmware, see [swallowtail branch in takjn/qmk_firmware](https://github.com/takjn/qmk_firmware/tree/swallowtail/keyboards/swallowtail).
 
